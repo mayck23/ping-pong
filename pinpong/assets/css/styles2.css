@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente pixelada futurista */
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #282c34;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00ffcc; /* Color del título */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #00ffcc; /* Color de los enlaces del menú */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #00ffcc; /* Borde de los enlaces del menú */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00ffcc; /* Color de fondo en hover */
+    color: #000; /* Color del texto en hover */
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: justify; /* Justificación del texto */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ff0099; /* Color de los encabezados */
+    margin-bottom: 1rem;
+}
+
+.game-instructions, .game-description, .game-manual, .game-history {
+    margin-bottom: 3rem;
+    padding: 1rem; /* Espaciado interno */
+    border: 2px solid #ff0099; /* Borde de la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+    background-color: #444; /* Fondo para diferenciar */
+}
+
+.play-game {
+    margin-top: 3rem;
+    margin-bottom: 2rem; /* Margen inferior para separar de la encuesta */
+    padding: 1rem; /* Espaciado interno */
+    border: 2px solid #ff0099; /* Borde de la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+    background-color: #444; /* Fondo para diferenciar */
+}
+
+.game-history {
+    margin-top: 2rem; /* Margen superior para la encuesta */
+}
+
+.play-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #3399ff; /* Color azul más suave */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #007acc; /* Borde azul más oscuro */
+}
+
+.play-button:hover {
+    background-color: #007acc; /* Color de fondo en hover para el botón de jugar */
+}
+
+/* Estilos para el botón de encuesta */
+.survey-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #3399ff; /* Color azul más suave */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #007acc; /* Borde azul más oscuro */
+}
+
+.survey-button:hover {
+    background-color: #007acc; /* Color de fondo en hover para el botón de encuesta */
+}
+
+/* Estilos para las imágenes pixeladas del juego */
+.game-image {
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 300px; /* Tamaño ajustado */
+    height: auto;
+    border: 3px solid #ff0099; /* Borde consistente */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Icono de raquetas pixeladas en lugar de números */
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #282c34;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.8rem;
+}
+.references {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #333; /* Fondo oscuro */
+    border-radius: 8px; /* Esquinas redondeadas */
+    border: 2px solid #ff0099; /* Borde similar al estilo general */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.references h3 {
+    color: #ff0099; /* Color de los encabezados */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.references p {
+    color: #f0f0f0; /* Color del texto */
+    line-height: 1.4;
+}
+
+.references a {
+    color: #00ffcc; /* Color de los enlaces */
+    text-decoration: none;
+}
+
+.references a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}

@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Títulos principales */
+h1 {
+    color: #00d4ff;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #f0f0f0;
+    font-size: 14px;
+}
+
+/* Estilos para las entradas de texto y selección */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #00d4ff;
+    background-color: #161625;
+    color: #fff;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ff6b6b;
+}
+
+/* Sección de información personal */
+.personal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de preguntas */
+.questions {
+    margin-top: 20px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; /* Espacio entre las preguntas */
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las preguntas de texto (de la 11 a la 15) */
+.questions .field input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #00d4ff;
+    background-color: #161625;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Estilos para el botón de envío */
+button {
+    background-color: #00d4ff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6b6b;
+}
+
+
+.gif-izquierda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%; /* Ocupa la mitad del ancho */
+    height: 70%; /* Ocupa la mitad de la altura */
+    object-fit: cover; /* Asegura que el contenido del GIF llene el espacio */
+}
+
+.gif-derecha {
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18%; 
+    height: 74%; 
+    object-fit: cover; 
+    
+}

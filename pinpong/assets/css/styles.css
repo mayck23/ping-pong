@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.game-container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #2ECC71;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header img {
+    width: 50px;
+    height: auto;
+}
+
+.buttons button {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background-color: #27AE60;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #219653;
+}
+
+.pong-wrapper {
+    margin-top: 2em;
+    background-color: #34495E;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#ping-pong {
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #F39C12;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .header img {
+        width: 40px;
+    }
+    .buttons button {
+        font-size: 0.8em;
+        padding: 8px 16px;
+    }
+}
